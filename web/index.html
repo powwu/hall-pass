@@ -1,0 +1,18 @@
+<h1>Hall pass</h1>
+
+<form action="/out" method="post" enctype="multipart/form-data">
+    Student Id: <input type="text" name="studentid"><br>
+    Classroom: <input type="text" name="classroom"><br>
+    Destination:<br>
+    <input type="radio" id="bathroom" name="destination" value="Bathroom">
+    <label for="bathroom">Bathroom</label><br>
+    <input type="radio" id="water" name="destination" value="Water">
+    <label for="water">Water</label><br>
+    <input type="radio" id="nurse" name="destination" value="Nurse">
+    <label for="nurse">Nurse</label><br>
+    <input type="submit" value="Submit">
+
+
+    <br><br><br>
+    <a href="/admin">Admin View</a>
+</form>
